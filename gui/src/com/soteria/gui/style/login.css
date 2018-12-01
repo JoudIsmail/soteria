@@ -1,0 +1,58 @@
+.back{
+    -fx-background-image: url('lipstick3.jpg');
+    -fx-background-size: cover;
+}
+.login-Button{
+    -fx-background-color:  #2f2f2f;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+}
+.login-Button:hover{
+    -fx-border-color: linear-gradient(#A9EF75,#A7EF72);
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+}
+.close-Button{
+    -fx-background-color: transparent;
+}
+.mini-Button{
+    -fx-background-color: transparent;
+}
+.mini-Button:hover{
+    -fx-background-color: #BEBEBE;
+}
+.close-Button:hover{
+    -fx-background-color: #B80000 ;
+}
+.wrong-credentials{
+    -fx-text-box-border: red ;
+    -fx-focus-color: red;
+    -fx-text-fill: red;
+}
+.wrong-pass-label{
+    -fx-text-fill: red;
+}
+.field{
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+}
+/*Alert box styling*/
+
+.Alert-button{
+    -fx-background-color:  #2f2f2f;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-text-fill: white;
+}
+.Alert-button:hover{
+    -fx-border-color: linear-gradient(#A9EF75,#A7EF72);
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-text-fill: white;
+}
+.jfxdialog{
+    -fx-background-color: #696969;
+}
+.alert-label{
+    -fx-text-fill: white;
+}

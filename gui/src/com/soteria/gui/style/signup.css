@@ -1,0 +1,67 @@
+.back{
+    -fx-background-image: url('lipstick3.jpg');
+    -fx-background-size: cover;
+}
+.Label{
+    -fx-font-family: Magneto;
+    -fx-text-fill: linear-gradient(#A9EF75,#A7EF72);
+    -fx-font-weight: bold;
+    -fx-font-size: 40;
+}
+.login-Button:hover{
+    -fx-border-color: linear-gradient(#A9EF75,#A7EF72);
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+}
+.mini-Button{
+    -fx-background-color: transparent;
+}
+.mini-Button:hover{
+    -fx-background-color: #BEBEBE;
+}
+.close-Button:hover{
+    -fx-background-color: #B80000 ;
+}
+.close-Button{
+    -fx-background-color: transparent;
+}
+.field{
+    /*-fx-prompt-text-fill: WHITE;
+    -fx-font-weight: bold;
+    -fx-focus-color: linear-gradient(#A9EF75,#A7EF72);
+    -jfx-unfocus-color: white;*/
+    -jfx-focus-color: linear-gradient(#A9EF75,#A7EF72);
+    -jfx-unfocus-color: white;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-prompt-text-fill: WHITE;
+}
+.error-field{
+    -jfx-focus-color: red;
+    -jfx-unfocus-color: red;
+    -fx-font-weight: bold;
+    -fx-prompt-text-fill: red;
+}
+.error-label{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+/**/
+.Alert-button{
+    -fx-background-color:  #2f2f2f;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-text-fill: white;
+}
+.Alert-button:hover{
+    -fx-border-color: linear-gradient(#A9EF75,#A7EF72);
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-text-fill: white;
+}
+.jfxdialog{
+    -fx-background-color: #696969;
+}
+.alert-label{
+    -fx-text-fill: white;
+}
